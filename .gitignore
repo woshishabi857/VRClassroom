@@ -1,0 +1,88 @@
+# ==========================================================
+# Unity .gitignore for Projects (2025 Edition)
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+# ==========================================================
+
+# === Build results ===
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# === User-specific files ===
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# === Unity Cache / Auto-generated ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Mm]emoryCaptures/
+UserSettings/
+.burst/
+
+# === IDE folders ===
+.vscode/
+.idea/
+.vs/
+
+# === OS & Editor junk ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Unity Package Manager ===
+*.unitypackage
+
+# === Generated builds ===
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+
+# === Visual Studio Code ===
+.vscode/
+.vscode/*
+
+# === Rider IDE ===
+.idea/
+.idea/*
+
+# === JetBrains Rider Unity plugin cache ===
+.idea/.idea.Unity*
+
+# === Crash reports ===
+sysinfo.txt
+
+# === Other binaries or compressed stuff ===
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.dll
+*.so
+*.jar
+*.mp4
+*.mov
+
+# === Git LFS tracking (optional) ===
+# If using Git LFS for large files like .unitypackage
+# *.unitypackage filter=lfs diff=lfs merge=lfs -text
+
+# === StreamingAssets you want to keep ===
+!Assets/StreamingAssets/
+
+# === Keep meta files ===
+!*.meta
